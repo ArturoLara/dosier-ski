@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje de Esquí Andorra 2026 - Dosier Completo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+        .content {
+            padding: 50px 40px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 4px solid #667eea;
+        }
+        
+        .section h3 {
+            font-size: 1.4em;
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .info-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .price-highlight {
+            background: linear-gradient(135deg, #fff5e6 0%, #ffe6cc 100%);
+            border-left: 5px solid #f39c12;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .best-offer {
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+            border-left: 5px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 1.1em;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 4px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .image-section {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .image-caption {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        
+        .budget-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .budget-summary h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .budget-amount {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        
+        .checklist {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .checklist li {
+            margin: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .checklist li:before {
+            content: "☑";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-size: 1.2em;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px 5px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+        
+        .emoji {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .header p {
+                font-size: 1em;
+            }
+            
+            .content {
+                padding: 25px 20px;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>🏔️ VIAJE DE ESQUÍ ANDORRA 2026</h1>
+            <p>22 - 27 de Marzo | Grandvalira - El Tarter</p>
+        </div>
+        
+        <!-- HERO IMAGE -->
+        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/83c17af2-a850-477c-922c-d5ee90e1c1eb.png" alt="Estación Ordino Arcalís" class="hero-image">
+        
+        <div class="content">
+            
+            <!-- INFORMACIÓN GENERAL -->
+            <div class="section">
+                <h2>📋 Información del Viaje</h2>
+                <div class="info-box">
+                    <p><strong>Fechas:</strong> 22 - 27 de Marzo 2026 (5 noches)</p>
+                    <p><strong>Destino:</strong> El Tarter, Andorra - Grandvalira</p>
+                    <p><strong>Grupo:</strong> 6 personas</p>
+                    <p><strong>Alojamiento:</strong> Pierre & Vacances El Tarter (2 apartamentos)</p>
+                </div>
+            </div>
+            
+            <!-- ALOJAMIENTO -->
+            <div class="section">
+                <h2>🏠 Alojamiento</h2>
+                <h3>Pierre & Vacances El Tarter</h3>
+                
+                <div class="image-section">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d3c1dcb5-2022-4c73-8bac-d4f62175cd30.png" alt="El Tarter">
+                    <p class="image-caption">Apartamentos en la estación de esquí</p>
+                </div>
+                
+                <p>Ubicado en El Tarter, en el corazón de Grandvalira, ofrecen la ubicación perfecta para una estancia de esquí. Con acceso directo a las pistas y proximidad a todas las actividades de invierno.</p>
+                
+                <h3>Especificaciones:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>🏠 Capacidad</h4>
+                        <p>2 apartamentos de 1 dormitorio (3+3 personas)</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>📐 Tamaño</h4>
+                        <p>40 m² por apartamento</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🛏️ Dormitorio</h4>
+                        <p>2 camas individuales + sofá cama</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>📶 Comodidades</h4>
+                        <p>WiFi, baño, lavadora, lavavajillas, TV, cafetera</p>
+                    </div>
+                </div>
+                
+                <div class="price-highlight">
+                    <h3>💰 Precio Total Alojamiento</h3>
+                    <p><strong>€802</strong> para 5 noches (para 6 personas)</p>
+                    <p><strong>€133,67</strong> por persona</p>
+                </div>
+            </div>
+            
+            <!-- ACTIVIDADES EN LA NIEVE -->
+            <div class="section">
+                <h2>⛷️ Actividades en la Nieve - Estación Ordino Arcalís</h2>
+                <p>Ordino Arcalís es la estación de esquí más septentrional de Andorra con un dominio esquiable excepcional. Abre el 27 de noviembre de 2025 y cierra el 6 de abril de 2026.</p>
+                
+                <h3>💰 FORFAITS (Acceso a Pistas)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th class="price">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>FF1B</strong> - Forfait 1 día debutante</td>
+                            <td class="price">44,50€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>FF1G</strong> - Forfait 1 día general</td>
+                            <td class="price">61,20€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>FF4G</strong> - Forfait 4 días general</td>
+                            <td class="price">239,60€</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>⛷️ ALQUILER DE ESQUÍS (SKI)</h3>
+                <p>Incluye esquís, botas y bastones</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th class="price">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>SKI1B CC</strong> - 1 día con casco</td>
+                            <td class="price">28,10€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>SKI4B CC</strong> - 4 días con casco</td>
+                            <td class="price">98€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>SKI4B SC</strong> - 4 días sin casco</td>
+                            <td class="price">80€</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>👨‍🏫 CLASES COLECTIVAS (EC)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th class="price">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>EC1D</strong> - Clase colectiva 1 día</td>
+                            <td class="price">58€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>EC3D</strong> - Clase colectiva 3 días</td>
+                            <td class="price">154€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>EC4D</strong> - Clase colectiva 4 días</td>
+                            <td class="price">172,50€</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>🎁 PAQUETES COMBINADOS (¡LOS MEJORES PRECIOS!)</h3>
+                <p>Forfait + Clases + Alquiler en un único paquete</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th class="price">Precio</th>
+                            <th>Detalle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>FF1D + EC1D + SKI1B</strong></td>
+                            <td class="price">131€</td>
+                            <td>1 día completo</td>
+                        </tr>
+                        <tr>
+                            <td><strong>FF2G + EC2D + SKI2B</strong></td>
+                            <td class="price">233€</td>
+                            <td>2 días</td>
+                        </tr>
+                        <tr>
+                            <td><strong>FF3G + EC3D + SKI3B</strong></td>
+                            <td class="price">347€</td>
+                            <td>3 días</td>
+                        </tr>
+                        <tr style="background-color: #d4edda;">
+                            <td><strong>FF4G + EC4D + SKI4B</strong></td>
+                            <td class="price" style="color: #28a745;">443€</td>
+                            <td><strong>4 días - ¡MEJOR OFERTA!</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="best-offer">
+                    <span class="emoji">🎯</span><strong>RECOMENDACIÓN:</strong> El paquete <span class="highlight">FF4G + EC4D + SKI4B (443€)</span> incluye FORFAIT 4 días + CLASES 4 días + ALQUILER de esquís con casco. ¡Todo lo que necesitas!
+                </div>
+                
+                <h3>🛡️ SEGURO DE ESQUÍ</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th class="price">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>SEGURO_DIA</strong> - Por día</td>
+                            <td class="price">6,50€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Por 4 días</strong></td>
+                            <td class="price">26€</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>🎢 ACTIVIDADES ALTERNATIVAS EN LA NIEVE</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Actividad</th>
+                            <th class="price">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>MOTOS2P30M</strong> - Motos de nieve (2 personas, 30 min)</td>
+                            <td class="price">85€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>MG3</strong> - Magic Gliss (3 bajadas)</td>
+                            <td class="price">17,50€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>MG5</strong> - Magic Gliss (5 bajadas)</td>
+                            <td class="price">24€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TS</strong> - Tirolina Sentada</td>
+                            <td class="price">20€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TE</strong> - Tirolina Estirada</td>
+                            <td class="price">25,50€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TT</strong> - Tirolina Tándem (2 personas)</td>
+                            <td class="price">36€</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- CALDEA -->
+            <div class="section">
+                <h2>🏊 Caldea: Spa Termal</h2>
+                
+                <div class="image-section">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/33523e1e-b874-423b-9307-b93633cfe94a.png" alt="Caldea">
+                    <p class="image-caption">Centro Termal Caldea - Andorra</p>
+                </div>
+                
+                <p>Caldea es el <strong>mayor spa termal del sur de Europa</strong>, ubicado en Escaldes-Engordany. Con arquitectura vanguardista y aguas termales naturales a 70°C ricas en minerales.</p>
+                
+                <h3>✨ Beneficios para la Salud:</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Mejora la circulación sanguínea</li>
+                    <li>Relaja la musculatura tras esquiar</li>
+                    <li>Reduce el estrés y tensión</li>
+                    <li>Recuperación muscular</li>
+                    <li>Regeneración de la piel</li>
+                </ul>
+                
+                <h3>🏊 Instalaciones Disponibles:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>💧 Lagunas Termales</h4>
+                        <p>Interiores y exteriores con vistas a montañas</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🔥 Saunas y Baños</h4>
+                        <p>Nórdica, cromática, hammam turco, indo-romanos</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>💆 Relajación</h4>
+                        <p>Zonas de descanso y masajes especializados</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🎯 Acceso</h4>
+                        <p>A 15 km de El Tarter (30 min en coche)</p>
+                    </div>
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th class="price">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>CALDEA_PREMIUM2</strong> - Pase Premium 4h (2 personas)</td>
+                            <td class="price">109€</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p style="margin-top: 15px;"><strong>Horarios:</strong> Abierto todos los días de 10:00 a 22:00h (viernes y sábados hasta medianoche)</p>
+            </div>
+            
+            <!-- APRÈS-SKI -->
+            <div class="section">
+                <h2>🎉 Après-Ski: L'Abarset</h2>
+                
+                <div class="image-section">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/5a6cbd9b-ada5-48d7-b722-3f4cb449efdd.png" alt="L'Abarset">
+                    <p class="image-caption">L'Abarset - El mejor après-ski de Andorra</p>
+                </div>
+                
+                <p><strong>L'Abarset se ha consolidado como el epicentro del après-ski en los Pirineos.</strong> El lugar de reunión por excelencia para disfrutar de música electrónica, ambiente festivo y gastronomía de calidad mientras disfrutas de las vistas de montaña.</p>
+                
+                <h3>🕐 Concepto Único:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>16:00 - 21:00</h4>
+                        <p><strong>Après-Ski</strong> - Entrada gratuita</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>22:00 - 02:00</h4>
+                        <p><strong>L'After</strong> - Club, aforo limitado</p>
+                    </div>
+                </div>
+                
+                <h3>📅 Programación Durante tu Viaje (22-27 Marzo):</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Día</th>
+                            <th>Evento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22 de Marzo</td>
+                            <td>Domingo</td>
+                            <td>Après-Ski</td>
+                        </tr>
+                        <tr>
+                            <td>23 de Marzo</td>
+                            <td>Lunes</td>
+                            <td>Après-Ski</td>
+                        </tr>
+                        <tr>
+                            <td>24 de Marzo</td>
+                            <td>Martes</td>
+                            <td>Après-Ski</td>
+                        </tr>
+                        <tr>
+                            <td>25 de Marzo</td>
+                            <td>Miércoles</td>
+                            <td>Après-Ski</td>
+                        </tr>
+                        <tr>
+                            <td>26 de Marzo</td>
+                            <td>Jueves</td>
+                            <td>Après-Ski</td>
+                        </tr>
+                        <tr style="background-color: #fff3cd;">
+                            <td>27 de Marzo</td>
+                            <td>Viernes</td>
+                            <td><strong>Après-Ski + L'After (hasta 02:00h)</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>🎵 Ambiente:</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Música de calidad con DJs y artistas internacionales</li>
+                    <li>Terraza con vistas a las montañas nevadas</li>
+                    <li>Gastronomía variada</li>
+                    <li>Energía y ambiente inconfundible</li>
+                    <li>Punto de encuentro de esquiadores</li>
+                </ul>
+            </div>
+            
+            <!-- COMPRAS -->
+            <div class="section">
+                <h2>🛍️ Compras en Andorra</h2>
+                
+                <h3>💰 Paraíso del Shopping Tax-Free</h3>
+                <p><strong>Andorra ofrece un IVA de solo 4,5%,</strong> comparado con el 20-25% de otros países europeos. Esto significa <strong>ahorros significativos</strong> en la mayoría de productos.</p>
+                
+                <h3>📊 Comparativa de Precios:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>🥃 Alcohol y Tabaco</h4>
+                        <p><strong>2,5x más baratos</strong> que en Francia</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>💄 Perfumes y Cosmética</h4>
+                        <p>Hasta <strong>20-30% menos</strong></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>👕 Ropa y Calzado</h4>
+                        <p><strong>15-25% más económico</strong></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>💻 Electrónica</h4>
+                        <p>Precios muy <strong>competitivos</strong></p>
+                    </div>
+                </div>
+                
+                <h3>🏬 Principales Zonas de Compras:</h3>
+                <ul style="margin-left: 20px;">
+                    <li><strong>Avenida Meritxell</strong> - Corazón comercial de Andorra</li>
+                    <li><strong>Pyrénées Andorra (Duty-Free)</strong> - Perfumería, cosmética, marcas de lujo</li>
+                    <li><strong>Centro Comercial l'Illa Carlemany</strong> - Mango, Jeans Culte, tiendas de moda</li>
+                    <li><strong>Pyrénées Andorra Maison Outlet</strong> - Decoración, ropa de cama</li>
+                </ul>
+                
+                <h3>✅ Consejos para Comprar:</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Necesitas solo DNI válido</li>
+                    <li>Disponible todo el año</li>
+                    <li>Rebajas especiales: tercer viernes de diciembre y junio</li>
+                </ul>
+            </div>
+            
+            <!-- PAISAJES -->
+            <div class="section">
+                <h2>🏔️ El Tarter y Paisajes de Montaña</h2>
+                
+                <h3>📍 Descubriendo El Tarter:</h3>
+                <p><strong>Ubicación:</strong> Parroquia de Canillo, noreste de Andorra</p>
+                <ul style="margin-left: 20px;">
+                    <li>5 km de Canillo</li>
+                    <li>15 km de Andorra la Vella</li>
+                    <li>Puerta de acceso a Grandvalira</li>
+                </ul>
+                
+                <h3>🌄 Paisajes Espectaculares:</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Vistas panorámicas de los Pirineos nevados</li>
+                    <li>Montañas de más de 2.500 metros</li>
+                    <li>Valles alpinos con contrastes naturales</li>
+                    <li>Cielos estrellados (baja contaminación lumínica)</li>
+                </ul>
+                
+                <h3>🥾 Actividades Complementarias:</h3>
+                <ul style="margin-left: 20px;">
+                    <li><strong>Valle de Incles:</strong> Caminata fácil, riachuelos, vistas espectaculares</li>
+                    <li><strong>Gastronomía Local:</strong> Bordas tradicionales, restaurantes con carne a la brasa, guisos de montaña</li>
+                </ul>
+            </div>
+            
+            <!-- PRESUPUESTO -->
+            <div class="section">
+                <h2>📊 Presupuesto Estimado</h2>
+                
+                <h3>💵 Desglose de Costes por Persona</h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Concepto</th>
+                            <th class="price">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alojamiento (5 noches)</td>
+                            <td class="price">133,67€</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Paquete FF4G + EC4D + SKI4B</strong></td>
+                            <td class="price"><strong>443€</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Seguro (4 días × 6,50€)</td>
+                            <td class="price">26€</td>
+                        </tr>
+                        <tr style="background-color: #f0f0f0;">
+                            <td><strong>SUBTOTAL ESQUÍ</strong></td>
+                            <td class="price"><strong>602,67€</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Caldea Premium 4h (opcional)</td>
+                            <td class="price">54,50€</td>
+                        </tr>
+                        <tr>
+                            <td>Comidas/bebidas (5 días)</td>
+                            <td class="price">150€</td>
+                        </tr>
+                        <tr>
+                            <td>Actividades extras (tirolina, etc.)</td>
+                            <td class="price">50€</td>
+                        </tr>
+                        <tr style="background-color: #d4edda;">
+                            <td><strong>TOTAL ESTIMADO</strong></td>
+                            <td class="price"><strong>~857€</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="budget-summary">
+                    <h3>🎯 Resumen de Presupuesto</h3>
+                    <p>Por persona (con opcionales incluidos)</p>
+                    <div class="budget-amount">~€857</div>
+                    <p><strong>Total grupo (6 personas):</strong> ~€5.142</p>
+                </div>
+            </div>
+            
+            <!-- GUÍA PARA PRINCIPIANTES -->
+            <div class="section">
+                <h2>👶 Guía para Principiantes</h2>
+                <h3>Para los 2 Miembros sin Experiencia Esquiadora</h3>
+                
+                <p>¡<strong>Buenas noticias!</strong> Ordino Arcalís está diseñada específicamente para recibir principiantes. Más de 9 pistas verdes y especialistas en debutantes te aseguran un aprendizaje rápido y seguro.</p>
+                
+                <h3>🏔️ Infraestructura de Debutantes:</h3>
+                <ul style="margin-left: 20px;">
+                    <li><strong>Pista "Megaverde"</strong> - 8 km de largo (la más larga de los Pirineos para principiantes)</li>
+                    <li><strong>8 pistas verdes adicionales</strong> - Progresión suave y natural</li>
+                    <li><strong>Remontes especiales</strong> para principiantes</li>
+                    <li><strong>Zona acotada y segura</strong> con monitores especializados</li>
+                </ul>
+                
+                <h3>📚 Clases Recomendadas</h3>
+                
+                <div class="best-offer">
+                    <span class="emoji">⭐</span><strong>OPCIÓN RECOMENDADA:</strong> Paquete FF4G + EC4D + SKI4B = <span class="highlight">443€</span>
+                </div>
+                
+                <p><strong>Este paquete incluye:</strong></p>
+                <ul style="margin-left: 20px;">
+                    <li>Forfait 4 días general (acceso a todas las pistas)</li>
+                    <li>Clases colectivas 4 días (12 horas totales, 3 horas/día)</li>
+                    <li>Alquiler de esquís + botas + bastones + casco</li>
+                </ul>
+                
+                <h3>✨ Ventajas del paquete:</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Precio muy competitivo (€443 por persona)</li>
+                    <li>Todo incluido sin sorpresas</li>
+                    <li>Monitores especializados en debutantes</li>
+                    <li>Grupos de nivel similar</li>
+                    <li>Garantía de progreso rápido</li>
+                </ul>
+                
+                <h3>🎯 Progresión Realista - Qué Esperar:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Técnica</th>
+                            <th>Progreso</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Día 1</strong></td>
+                            <td>Posición básica, equilibrio, frenado</td>
+                            <td>Muy básico</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Día 2</strong></td>
+                            <td>Giros simples, control de velocidad</td>
+                            <td>Principiante</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Día 3</strong></td>
+                            <td>Giros mejorados, confianza</td>
+                            <td>Progresando</td>
+                        </tr>
+                        <tr style="background-color: #d4edda;">
+                            <td><strong>Día 4</strong></td>
+                            <td>Técnica consolidada, seguridad</td>
+                            <td><strong>¡Esquiador!</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>❓ Preguntas Frecuentes:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>¿Y si me caigo mucho?</h4>
+                        <p>Normal. Los días 1-2 habrá caídas. Es parte del proceso.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>¿Podré hacerlo en 4 días?</h4>
+                        <p>Absolutamente. Esquiarás pistas verdes con confianza.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>¿Puedo esquiar con los expertos?</h4>
+                        <p>Después del Día 3-4 SÍ, en pistas verdes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>¿Es peligroso?</h4>
+                        <p>Con casco, clases y respetando límites, NO.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- INFORMACIÓN PRÁCTICA -->
+            <div class="section">
+                <h2>🗺️ Información Práctica</h2>
+                
+                <h3>🚗 Cómo Llegar (en Coche):</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Desde Madrid: ~600 km (7-8 horas)</li>
+                    <li>Desde Barcelona: ~200 km (3 horas)</li>
+                    <li>Desde Lleida: ~150 km (2 horas)</li>
+                </ul>
+                
+                <h3>🕐 Horarios Importantes:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>⛷️ Estación</h4>
+                        <p>09:00 - 17:00 horas</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🎉 L'Abarset</h4>
+                        <p>16:00 - 21:00 (Après)</p>
+                        <p>22:00 - 02:00 (After)</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🏊 Caldea</h4>
+                        <p>10:00 - 22:00</p>
+                        <p>Viernes/sábados: hasta 00:00</p>
+                    </div>
+                </div>
+                
+                <h3>📄 Documentación Necesaria:</h3>
+                <ul style="margin-left: 20px;">
+                    <li>DNI válido (esencial para compras)</li>
+                    <li>Permiso de conducir</li>
+                    <li>Documentación del vehículo</li>
+                    <li>Seguro de viaje (recomendado)</li>
+                </ul>
+                
+                <h3>🔗 Contactos Útiles:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>🏠 Alojamiento</h4>
+                        <p><a href="https://www.booking.com/Share-Mv7Pvdg" style="color: #667eea;">Pierre & Vacances</a></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>⛷️ Esquí</h4>
+                        <p><a href="https://www.ordinoarcalis.com/es/escuela" style="color: #667eea;">Escuela Ordino</a></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🎉 Après-Ski</h4>
+                        <p><a href="https://www.abarset.com" style="color: #667eea;">L'Abarset</a></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🏊 Caldea</h4>
+                        <p><a href="https://www.caldea.ad" style="color: #667eea;">Caldea Spa</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CHECKLIST -->
+            <div class="section">
+                <h2>✅ Checklist Pre-Viaje</h2>
+                
+                <h3>2 Semanas Antes:</h3>
+                <ul class="checklist">
+                    <li>Reservar alojamiento (confirmado)</li>
+                    <li>Reservar paquete esquí (FF4G + EC4D + SKI4B)</li>
+                    <li>Reservar Caldea con antelación</li>
+                    <li>Revisar estado del vehículo</li>
+                </ul>
+                
+                <h3>1 Semana Antes:</h3>
+                <ul class="checklist">
+                    <li>Confirmar fecha y horarios con el grupo</li>
+                    <li>Preparar documentación (DNI, carnet conducir)</li>
+                    <li>Revisar equipaje y ropa de esquí</li>
+                    <li>Comunicar cambios itinerario</li>
+                </ul>
+                
+                <h3>Día Anterior:</h3>
+                <ul class="checklist">
+                    <li>Revisar condiciones meteorológicas</li>
+                    <li>Confirmar horarios de salida</li>
+                    <li>Llenar depósito de gasolina</li>
+                    <li>Verificar neumáticos invierno</li>
+                </ul>
+                
+                <h3>Día del Viaje:</h3>
+                <ul class="checklist">
+                    <li>Partir con tiempo suficiente</li>
+                    <li>Llevar DNI y documentación</li>
+                    <li>Cámara para fotos memorables</li>
+                </ul>
+            </div>
+            
+            <!-- CONCLUSIÓN -->
+            <div class="section">
+                <h2>🎯 Conclusión</h2>
+                
+                <h3>Este viaje ofrece una combinación perfecta de:</h3>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>⛷️ Esquí de Calidad</h4>
+                        <p>Acceso a Grandvalira con 200+ km de pistas</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🏊 Relax y Bienestar</h4>
+                        <p>Caldea para recuperarse</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🎉 Diversión Après-Ski</h4>
+                        <p>L'Abarset con música y ambiente</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🛍️ Compras Increíbles</h4>
+                        <p>Duty-free con ahorros</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🏔️ Paisajes Espectaculares</h4>
+                        <p>Pirineos nevados</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>👨‍👩‍👧‍👦 Accesible para Todos</h4>
+                        <p>Principiantes y expertos</p>
+                    </div>
+                </div>
+                
+                <div class="budget-summary" style="margin-top: 30px;">
+                    <h3>💡 Recomendación Final</h3>
+                    <p>El <strong>Paquete Combinado FF4G + EC4D + SKI4B (443€)</strong> es la MEJOR OPCIÓN:</p>
+                    <ul style="color: white; margin-left: 20px; margin-top: 15px;">
+                        <li>✓ Incluye todo lo necesario</li>
+                        <li>✓ Precio muy competitivo</li>
+                        <li>✓ Sin sorpresas adicionales</li>
+                        <li>✓ Ideal para principiantes y principiantes-intermedios</li>
+                    </ul>
+                </div>
+                
+                <p style="text-align: center; margin-top: 30px; font-size: 1.2em;">
+                    <strong>Este es el momento perfecto para planificar. ¡Que comience la aventura!</strong>
+                </p>
+            </div>
+            
+        </div>
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            <p><strong>Documento preparado para el grupo de esquí - Marzo 2026</strong></p>
+            <p>Comparte con tus amigos y ¡que comience la aventura!</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">Toda la información está actualizada a enero de 2026</p>
+        </div>
+    </div>
+</body>
+</html>
